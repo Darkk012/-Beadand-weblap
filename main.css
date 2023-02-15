@@ -1,0 +1,279 @@
+*{
+	background-color:#1a1a1a;
+	color:white;
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color:#1a1a1a;
+}
+
+h1{
+	text-align:Center;
+	font-size:50px;
+	color:#3333cc;
+	margin-bottom:15px;
+}
+
+h2{
+	color:#4d4dff;
+	font-size:30px;
+	margin-bottom:10px;
+}
+
+p{
+	color:#ccccff;
+}
+
+.navbg{
+	background-color:#2d275d;	
+}
+
+.nav-link{
+	background-color:#2d275d;
+	color:white;
+	font-size:130%;
+}
+  
+.navbar-brand{
+	background-color:#2d275d;
+	font-size:170%;
+	font-weight:bold;
+	font-style:italic;
+	color:#3333cc;
+}
+
+.navbar-toggler-icon{
+	background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.lecserelt{
+	color:red;
+}
+.most{
+	color:green;
+}
+
+.uibolya{
+	color:#c44dff;
+}
+.lfeny{
+	color:#b3b300;
+}
+.ivoros{
+	color:#660000;
+}
+
+
+#hubble{
+	padding: 10px;
+}
+#hubble ul{
+	margin-left:20px;
+	font-size:20px;
+}
+#hubble img{
+	width:15%;
+	float:right;
+	border:5px solid #000066;
+	border-radius:50%;
+}
+#hubble p{
+	text-align:left;
+	font-size:20px;
+	color:#ccccff;
+	margin-bottom:5px;
+}
+#hubble b{
+	color:yellow;
+}
+#hubble a{
+	color:#33cc33;
+}
+#hubble a:hover{
+	color:#145214;
+}
+#hubble i{
+	color:#a6a6a6;
+}
+
+#kuldetesek{
+	padding:10px;
+}
+#kuldetesek h2{
+	font-size:40px;
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#kuldetesek h3{
+	color:#4d4dff;	
+}
+#kuldetesek img{
+	width: 13%;
+	height:auto;
+}
+
+.bal{
+	margin-top:40px;
+	margin-bottom:40px;
+}
+.bal p{
+	text-align:left;
+	font-size:20px;
+}
+.bal h3{
+	text-align:left;
+	font-size:30px;	
+}
+
+.jobb{
+	margin-top:40px;
+	margin-bottom:40px;
+}
+.jobb p{
+	text-align:right;
+	font-size:20px;
+}
+.jobb h3{
+	text-align:right;
+	font-size:30px;
+}
+
+.l{
+	float:left;
+}
+.r{
+	float:right;
+}
+.cl{
+	clear:left;
+}
+.cr{
+	clear:right;
+}
+
+#spreadsheet table{
+	border-color:#1976d2;
+}
+#spreadsheet thead td{
+	color:#fafafa;
+	background-color:#212121;
+	border-color:#1976d2;
+}
+#spreadsheet tbody .jexcel_row{
+	color:#fafafa;
+	background-color:#212121;
+	border-color:#1976d2;
+}
+#spreadsheet tbody td{
+	color:#fafafa;
+	background-color:#616161;
+	border-color:#1976d2;
+}
+#spreadsheet .highlight-selected{
+	color:#fafafa;
+	background-color:#1e88e5;
+	border-color:#1976d2;
+}
+
+#idopont{
+	background-color:#2d275d;
+	padding-right:2%;
+}
+
+#lista{
+	padding:10px;
+}
+#lista p{
+	font-size:130%;
+	margin:5px;
+	padding:10px;
+	border:5px solid #231e48;
+	border-radius:15px;
+	background-color:#3d357e;
+}
+#lista form{
+	width: 30%;
+	background-color:#3d357e;
+	padding:5px;
+	margin:10px;
+	border:10px solid #231e48;
+	border-radius:15px;
+}
+#lista form h1{
+	text-align:center;
+	font-size:200%;
+	font-style:italic;
+	background-color:#3d357e;
+	color:#ccccff;;
+}
+#lista fieldset{
+	border: 5px solid #342d6c;
+	padding:10px;
+	background-color:#2c265a;
+}
+#lista label{
+	background-color:#2c265a;
+	color:#ccccff;
+}
+#lista legend{
+	width:30%;
+	background-color:#342d6c;
+	border-radius:15px;
+	color:#ccccff;
+}
+#lista input{
+	background-color:#231e48;
+	margin-left:10px;
+	border-radius:15px;
+}
+#lista .gomb{
+	width:25%;
+	border-radius:15px;
+	color:#ccccff;
+}
+#lista input:hover{
+	border-color:#999900;
+}
+
+.card, .card-body, .card-body h5,.card-body p{
+	margin:auto;
+	padding-top:10px;
+	background-color:#3d3d5c;	
+}
+.card-body h5{
+	color:#6666ff;
+}
+.card{
+	margin-top:10px;
+}
+#gallery .card img{
+	height:100%;
+}
+#gallery #carouselExampleControls, #gallery #carouselExampleControls1{
+	width:50%;
+	height:50%;
+	margin:auto;
+	border: 5px solid #231e48;
+	border-radius:15px;
+}
+#gallery #g1,#gallery #g2{
+	padding:40px;	
+}
+
+#forrasok{
+	padding:10px;
+	margin:10px;
+}
+#forrasok p{
+	text-align:left;
+	font-size:30px;
+	line-height:80%;	
+}
+#forrasok ul, #forrasok li{
+	color:#ccccff;
+	margin-left:30px;
+	font-size:30px;	
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">	
+	<script src="https://bossanova.uk/jexcel/v4/jexcel.js"></script>
+	<script src="https://bossanova.uk/jsuites/v3/jsuites.js"></script>
+	<link rel="stylesheet" href="https://bossanova.uk/jsuites/v3/jsuites.css" type="text/css" />
+	<link rel="stylesheet" href="https://bossanova.uk/jexcel/v4/jexcel.css" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="hubble.js"></script>
+	<title>Hubble Küldetései</title>
+	<link rel="shortcut icon" href="kepek/title.jpg" type="image/x-icon">
+	<meta charset="utf-8">
+	
+</head>
+<body onload="ido()">
+<!--Menü-->
+	
+	<nav class=" navbar navbar-expand-lg navbg">
+	<span class="navbar-brand">Hubble Teleszkóp</span>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+	  <div class="collapse navbar-collapse navbg" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto">	  	  
+		  <li class="nav-item">
+			<a class="nav-link" href="Hubble.html">A Teleszkópról</a>
+		  </li>
+		  <li class="nav-item active">
+			<a class="nav-link" href="Hubblekuldetesek.html">Küldetések</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="Levelezolista.html">Levelezőlista</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="Gallery.html">Galéria</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="Forrasok.html">Források</a>
+		  </li>
+		</ul>
+		<span class="navbar-text" id="idopont"></span>
+		<a class="navbar-brand" href="https://www.reddit.com/r/astrophotography/">
+			<img class="navbg" src="kepek/reddit.jpg" width="30" height="30" alt="reddit">
+		</a>
+	  </div>
+	</nav>
+	
+<!--Tartalom-->
+	
+	<div id="kuldetesek">
+			<h1>Küldetések</h1>
+		<div class="bal">
+			<h3>STS-31</h3>
+				<img src="kepek/STS-31.jpg" alt="STS-31" class="r">
+				<p>1990. április 24-én indult a Kennedy Űrközpontból a Discovery űrrepülőgéppel a Hubble Teleszkóp. 
+				A küldetés egy 5 napos operatív űrszolgálat volt. A személyzet öt föből állt: Loren Shriver(parancsnok), Charles Bolden(pilóta), 
+				Steven Hawley(küldetésfelelős), Bruce McCandless(küldetésfelelős) és Kathryn Sulivan(küldetésfelelős).
+				A küldetés keretein belül a távcsövet április 25-én 600 kilométeres pályamagasságba állították a föld körül.
+				A Discovery április 29-én szállt le Kaliforniában az Edward légitámaszponton.</p>
+				
+		</div>
+		<h2>Javítások</h2>
+		<div class="jobb cr">
+			<h3>STS-61</h3>
+				<img src="kepek/STS-61.jpg" alt="STS-61" class="l">
+				<p>A STS-61 küldetés az első űrbéli javítás volt. 1993 december 2-án indult az Endeavour űrrepülőgép a Kennedy Űrközpontból.
+				A javítás keretében beépítették a HSP helyére a COSTAR korrekciós optikát, és a WFPC helyére a WFPC2 kamerát. 
+				A küldetés egy 10 napos operatív űrszolgálat volt, legfőbb célja a Távcső tudományos képességeinek a visszaállítása.
+				A személyzet 7 főböl állt: Richard Covey(parancsnok), Kenneth Dwane Bowersox(pilóta), Story Musgrave(rakományfelelős), Kathryn Thornton(küldetésfelelős),
+				Claude Nicollier(küldetésfelelős), Jeffrey Hoffman(küldetésfelelős) és Thomas Dale Akres(küldetésfelelős) volt.
+				Az Endeavour december 13-án szállt le a Kennedy Űrközpontban.</p>
+		</div>
+		<div class="bal cl">
+			<h3>STS-82</h3>
+				<img src="kepek/STS-82.jpg" alt="STS-82" class="r">
+				<p>A STS-82 küldetés a második űrbéli javítás volt. 1997. február 11-én idnult a Discovery a Kennedy Űrközpontból.
+				A javítás keretein belül a GHRS helyére a NICMOS spektrográf és a FOS helyére a STIS spektrográf és kamera került.
+				A küldetés egy 9 napos operatív űrszolgálat volt. A személyzet 7 főböl állt: Kenneth Dwane Bowersox(parancsnok), Scott Jay Horowitz(pilóta), 
+				Mark Charles Lee(küldetésfelelős), Steven Hawley(küldetésfelelős), Gregory Harbaugh(küldetésfelelős), Steven Lee Smith(küldetésfelelős) és
+				Joseph Richard Tanner(küldetésfelelős) volt. A Discovery 1997. február 21-én a Kennedy Űrközpontban szállt le.</p>				
+		</div>
+		<div class="jobb cr">
+			<h3>STS-103</h3>
+				<img src="kepek/STS-103.jpg" alt="STS-103" class="l">
+				<p>A STS-103 küldetésnél a tervezettnél gyorsabban tönkremenő giroszkópokat és a központi számítógépet cserélték ki. 1996. december 6-ára tervezték az indulást
+				de technikai okokból december 20-án a Discovery a Kennedy Űrközpontból indult.				
+				A küldetés 7 napos operatív űrszolgálat volt. A STS-103-at 2000 Júniusáról hozták előre. A személyzet 7 főböl állt:
+				Curtis Brown(parancsnok), Scott Joseph Kelly(pilóta), Steven Lee Smith(küldetésfelelős), Michael Colin Foale(küldetésfelelős), 
+				John Mace Grunsfled(küldetésfelelős), Claude Nicollier(küldetésfelelős) és Jean-Francois Clevory(küldetésfelelős) volt.
+				A Discovery december 28-án szállt le a Kennedy Űrközpontban.</p>				
+		</div>
+		<div class="bal cl">
+			<h3>STS-109</h3>
+				<img src="kepek/STS-109.jpg" alt="STS-109" class="r">
+				<p>A STS-109 küldetésnél a Javitás keretein belül kicserélték az FOC-t az ACS-re és NICMOS infravörös kamerát új hűtőrendszerrel látták el.
+				2002 február 21-én kellet volna indulni de meteorológiai okok miatt csak március 1-jén indult el a Columbia a Kennedy Űrközpontból.
+				A küldetés 10 napos operatív űrszolgálat volt. A Személyzet 7 föből állt: Scott Douglas Altman(parancsnok), Duane Gene Carey(pilóta), 
+				John Mace Grunsfled(rakományfelelős), Nancy Currie(küldetésfelelős), James Newman(küldetésfelelős), Richard Linnehan(küldetésfelelős) és Michael James Massimio(küldetésfelelős) volt.
+				A Columbia március 12-én szállt le a Kennedy Űrközpontban.</p>				
+		</div>
+		<div class="jobb cr">
+			<h3>STS-125</h3>
+				<img src="kepek/STS-125.jpg" alt="STS-125" class="l">
+				<p>A STS-125 az ötödik nagy javítás volt. Az Atlantis 2009. május 11-én indult a Kennedy Űrközpontból.
+				A javítás keretein belül a WFPC2 helyére a WFPC3 és a COSTAR helyére a COS került, az ACS-t és STIS-t áramköri szinten javították.
+				Kicserélték a Hubble akumlátorát. A küldetés 12 napos operatív űrszolgálat volt. A személyzet 7 föből állt: Scott Douglas Altman(parancsnok),
+				Gregory Carl Johnson(pilóta), John Mace Grunsfled(küldetésfelelős), Katherine Megan McArtur(küldetésfelelős), Michael James Massimino(küldetésfelelős), 
+				Andrew Jay Feustel(küldetésfelelős) és Michael Timothy Good(küldetésfelelős) volt. Az Atlantis május 24-én szállt le az Edwards légitámaszponton.</p>				
+		</div>
+	</div>
+
+	<!--Táblázat-->
+	
+	<div id="spreadsheet"></div>
+
+	<script>
+	data = [
+		['STS-31','1990-04-24','1990-04-29','5','5','Discovery'],
+		['STS-61','1993-12-02','1993-12-13','10','7','Endeavour'],
+		['STS-82','1997-02-11','1997-02-21','9','7','Discovery'],
+		['STS-103','1999-12-20','1999-12-28','7','7','Discovery'],
+		['STS-109','2002-03-1','2002-03-12','10','7','Columbia'],
+		['STS-125','2009-05-11','2009-05-24','14','7','Atlantis'],
+	];
+	
+	jexcel(document.getElementById('spreadsheet'), {
+    data:data,
+    columns:[
+        { type:'text', title:'Küldetés', width:130 },
+        { type:'calendar', title:'Kezdet', width:130, options: { format:'YYYY/MM/DD' } },
+        { type:'calendar', title:'Vége', width:130, options: { format:'YYYY/MM/DD' }},
+		{ type:'numeric', title:'Eltelt Napok', width:130 },
+        { type:'numeric', title:'Személyzet', width:130 },
+        { type:'text', title:'Űrhajó', width:130 }
+    ],
+	
+});
+	</script>
+	
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
